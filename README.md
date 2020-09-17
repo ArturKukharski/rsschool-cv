@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ArturKukharski/rsschool-cv/cv
