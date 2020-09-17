@@ -12,10 +12,11 @@ I go to RSSchool for up my skills. I relocated to America because I won a green 
 
 My strengths are focus on result, diligence and sociability.  
 I worked in one web company, they do SEO optimization but they didn't have a full stack programmer. Sometimes the company created a new websites for clients business. My job was to create a website for business or fix mistakes on their websites.
-Some my projects you can see on the links:  
-_[Furniture Store](https://superstore.by/)_  
-_[Inspection](http://uinspection.com/)_  
-_[SEO company](https://www.runita.ru/)_
+Some my projects you can see on the links:
+
+- _[Furniture Store](https://superstore.by/)_
+- _[Inspection](http://uinspection.com/)_
+- _[SEO company](https://www.runita.ru/)_
 
 I think if study alone it's not give best result, than when you can communicated with people who work on this.
 
@@ -66,5 +67,5 @@ Specialization: Web Development & computer graphics design, Belarusian State Uni
 
 ## English Level
 
-My english level **B1 - B2**
+My english level **B1 - B2**  
 I took second language English classes in Buck County Community College, Philadelphia.
