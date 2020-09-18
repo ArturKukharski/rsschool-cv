@@ -4,6 +4,214 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artur Kukharski</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
+      ul,
+      ol {
+        list-style: none;
+      }
+      ul li,
+      ol li {
+        margin-bottom: 10px;
+      }
+      h2,
+      h3,
+      h4,
+      h5 {
+        line-height: 1.15;
+        margin: 30px 0;
+        color: #2c87dc;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      body {
+        background-color: #212634;
+        color: #f5f5f5;
+        line-height: 1.75;
+        font-size: 18px;
+      }
+      main {
+        max-width: 1280px;
+        margin: auto;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+      }
+      header .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 120px;
+      }
+      header h1 {
+        font-size: 28px;
+        margin: 0;
+        margin-left: 20px;
+        line-height: 1.15;
+        color: #22b465;
+      }
+      .contacts,
+      .menu {
+        display: flex;
+      }
+      .menu .link {
+        margin: 0;
+        margin-left: 30px;
+      }
+      .link {
+        position: relative;
+        left: 0;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        color: #f5f5f5;
+        text-decoration: none;
+        margin-right: 20px;
+        transition: all 0.5s;
+      }
+      .link:hover {
+        color: #22b465;
+      }
+      .icon {
+        display: inline-block;
+        background-color: #f5f5f5;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        transition: background-color 0.5s;
+      }
+      .icon.linkedin {
+        -webkit-mask: url(linkedin.svg);
+        mask: url(linkedin.svg);
+      }
+      .icon.phone {
+        -webkit-mask: url(phone.svg);
+        mask: url(phone.svg);
+      }
+      .icon.envelope {
+        -webkit-mask: url(envelope.svg);
+        mask: url(envelope.svg);
+      }
+      .icon.right-arrow {
+        width: 10px;
+        height: 10px;
+        -webkit-mask: url(right-arrow.svg);
+        mask: url(right-arrow.svg);
+      }
+      .link:hover .icon {
+        background-color: #22b465;
+      }
+      section {
+        margin: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      #about {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .info {
+        flex-basis: calc(100% - 560px);
+        margin-right: 100px;
+      }
+      .projects .link:hover {
+        left: 10px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <img src="avatar.png" alt="Artur Kukharski avatar" />
+          <h1>Artur Kukharski</h1>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a class="link" href="#about">About Myself</a></li>
+            <li><a class="link" href="#skills">Skills</a></li>
+            <li><a class="link" href="#experiance">Experiance</a></li>
+            <li><a class="link" href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contacts">
+        <a
+          class="link"
+          href="https://www.linkedin.com/in/arturkukharski/"
+          target="_blank"
+        >
+          <i class="icon linkedin"></i>
+          Artur Kukharski
+        </a>
+        <a class="link" href="tel:+12157208910">
+          <i class="icon phone"></i>
+          +1 215 720-89-10
+        </a>
+        <a class="link" href="mailto:arturkukharski@gmail.com">
+          <i class="icon envelope"></i>
+          arturkukharski@gmail.com
+        </a>
+      </div>
+      <section id="about">
+        <div class="info">
+          <h2>About Myself</h2>
+          <p>
+            I go to RSSchool for up my skills. I relocated to America because I
+            won a green card. When I came to America my English was basic level
+            and I couldn't find a normal job. Now my English better but I lost
+            some my skills and I need know new trends in Web Programming.
+          </p>
+          <p>My strengths are focus on result, diligence and sociability.</p>
+          <p>
+            I worked in one web company, they do SEO optimization but they
+            didn't have a full stack programmer. Sometimes the company created a
+            new websites for clients business. My job was to create a website
+            for business or fix mistakes on their websites.
+          </p>
+        </div>
+        <div class="projects">
+          <h3>Some my projects you can see on the links:</h3>
+          <ul>
+            <li class="project">
+              <a class="link" href="https://superstore.by/" target="_blank"
+                ><i class="icon right-arrow"></i> Furniture Store</a
+              >
+            </li>
+            <li class="project">
+              <a class="link" href="http://uinspection.com/" target="_blank"
+                ><i class="icon right-arrow"></i> Home Inspection</a
+              >
+            </li>
+            <li class="project">
+              <a class="link" href="https://www.runita.ru/" target="_blank"
+                ><i class="icon right-arrow"></i> SEO Company</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>My Skills</h2>
+      </section>
+      <section id="experiance">
+        <h2>Work Experiance</h2>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+      </section>
+    </main>
+  </body>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
 </html>

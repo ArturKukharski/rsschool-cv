@@ -15,8 +15,8 @@ I worked in one web company, they do SEO optimization but they didn't have a ful
 Some my projects you can see on the links:
 
 - _[Furniture Store](https://superstore.by/)_
-- _[Inspection](http://uinspection.com/)_
-- _[SEO company](https://www.runita.ru/)_
+- _[Home Inspection](http://uinspection.com/)_
+- _[SEO Company](https://www.runita.ru/)_
 
 I think if study alone it's not give best result, than when you can communicated with people who work on this.
 
