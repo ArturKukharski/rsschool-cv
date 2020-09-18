@@ -20,12 +20,13 @@
         margin-bottom: 10px;
       }
       h2,
-      h3,
-      h4,
-      h5 {
+      h3 {
         line-height: 1.15;
         margin: 30px 0;
         color: #2c87dc;
+      }
+      h3 {
+        color: #22b465;
       }
       p {
         margin-bottom: 30px;
@@ -125,6 +126,19 @@
       .projects .link:hover {
         left: 10px;
       }
+      .types {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .types .type {
+        flex-basis: 320px;
+      }
+      .date {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        opacity: 0.6;
+      }
     </style>
   </head>
   <body>
@@ -201,12 +215,75 @@
       </section>
       <section id="skills">
         <h2>My Skills</h2>
+        <div class="types">
+          <div class="type">
+            <h3>Front-End</h3>
+            <ul>
+              <li>HTML, HTML5</li>
+              <li>CSS3</li>
+              <li>SASS, SCSS</li>
+              <li>Cross-browser</li>
+              <li>JavaScript, jQuery</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="type">
+            <h3>Back-End</h3>
+            <ul>
+              <li>CMS Modx Revolution</li>
+              <li>CMS WordPress</li>
+              <li>CMS OpenCard/li></li>
+            </ul>
+          </div>
+          <div class="type">
+            <h3>Tools</h3>
+            <ul>
+              <li>Adobe Photoshop</li>
+              <li>Adobe XD</li>
+              <li>Figma</li>
+              <li>Visual Studio Code</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section id="experiance">
         <h2>Work Experiance</h2>
+        <h3>Centermedia.by - Front-End Developer</h3>
+        <p class="date">2016 July - 2019 Jan</p>
+        <ul>
+          <li>
+            - Created responsive layout for mobile devices & tables on 10 sites
+          </li>
+          <li>
+            - Built single-page applications with JavaScript on a custom-built
+            framework
+          </li>
+          <li>
+            - Automated image optimization using Gulp and minimized JS and CSS,
+            which reduced page load times by 30% - 50% of Google PageSpeed
+          </li>
+          <li>- Refactored code on 10 sites</li>
+        </ul>
       </section>
       <section id="education">
         <h2>Education</h2>
+        <p>
+          Specialization: Web Development & computer graphics design, Belarusian
+          State University, Belarus. Bachelor’s degree. 2010 - 2015
+        </p>
+        <h3>Achievements</h3>
+        <p>
+          - 3rd place in the Scientific-Research Work of Belarusian State
+          University (2014) Participation in the Scientific conference:
+          "Creating a game on HTML5 and CSS3" (2013)
+        </p>
+        <h3>English Level</h3>
+        <p>My English level <b>B1 - B2</b></p>
+        <p>
+          I took second language English classes in Buck County Community
+          College, Philadelphia.
+        </p>
       </section>
     </main>
   </body>
